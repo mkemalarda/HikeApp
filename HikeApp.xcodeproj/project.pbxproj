@@ -15,6 +15,7 @@
 		C6F6E34A2B3AF7C20083DA4A /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6E3492B3AF7C20083DA4A /* CustomBackgroundView.swift */; };
 		C6F6E34D2B3AFA9F0083DA4A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6E34C2B3AFA9F0083DA4A /* ColorExtension.swift */; };
 		C6F6E34F2B3B1C020083DA4A /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6E34E2B3B1C020083DA4A /* CustomButtonView.swift */; };
+		C6F6E3512B3B2B970083DA4A /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6E3502B3B2B970083DA4A /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		C6F6E3492B3AF7C20083DA4A /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		C6F6E34C2B3AFA9F0083DA4A /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		C6F6E34E2B3B1C020083DA4A /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		C6F6E3502B3B2B970083DA4A /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +62,11 @@
 			isa = PBXGroup;
 			children = (
 				C6F6E34B2B3AFA860083DA4A /* Utility */,
-				C6F6E3382B3AF0110083DA4A /* HikeAppApp.swift */,
-				C6F6E33A2B3AF0110083DA4A /* ContentView.swift */,
 				C6F6E3482B3AF7A80083DA4A /* Component */,
 				C6F6E33C2B3AF0140083DA4A /* Assets.xcassets */,
 				C6F6E33E2B3AF0140083DA4A /* Preview Content */,
+				C6F6E3382B3AF0110083DA4A /* HikeAppApp.swift */,
+				C6F6E33A2B3AF0110083DA4A /* ContentView.swift */,
 			);
 			path = HikeApp;
 			sourceTree = "<group>";
@@ -91,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				C6F6E34C2B3AFA9F0083DA4A /* ColorExtension.swift */,
+				C6F6E3502B3B2B970083DA4A /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				C6F6E3472B3AF5C30083DA4A /* CardView.swift in Sources */,
 				C6F6E3392B3AF0110083DA4A /* HikeAppApp.swift in Sources */,
 				C6F6E34F2B3B1C020083DA4A /* CustomButtonView.swift in Sources */,
+				C6F6E3512B3B2B970083DA4A /* GradientButtonStyle.swift in Sources */,
 				C6F6E34A2B3AF7C20083DA4A /* CustomBackgroundView.swift in Sources */,
 				C6F6E34D2B3AFA9F0083DA4A /* ColorExtension.swift in Sources */,
 			);
