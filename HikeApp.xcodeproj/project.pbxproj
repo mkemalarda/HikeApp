@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C602203E2B4430C100515C99 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C602203D2B4430C100515C99 /* CustomCircleView.swift */; };
+		C60220402B4433A400515C99 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C602203F2B4433A400515C99 /* MotionAnimationView.swift */; };
 		C6F6E3392B3AF0110083DA4A /* HikeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6E3382B3AF0110083DA4A /* HikeAppApp.swift */; };
 		C6F6E33B2B3AF0110083DA4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6E33A2B3AF0110083DA4A /* ContentView.swift */; };
 		C6F6E33D2B3AF0140083DA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F6E33C2B3AF0140083DA4A /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		C602203D2B4430C100515C99 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		C602203F2B4433A400515C99 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		C6F6E3352B3AF0110083DA4A /* HikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F6E3382B3AF0110083DA4A /* HikeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeAppApp.swift; sourceTree = "<group>"; };
 		C6F6E33A2B3AF0110083DA4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				C6F6E3492B3AF7C20083DA4A /* CustomBackgroundView.swift */,
 				C6F6E34E2B3B1C020083DA4A /* CustomButtonView.swift */,
 				C602203D2B4430C100515C99 /* CustomCircleView.swift */,
+				C602203F2B4433A400515C99 /* MotionAnimationView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -177,6 +180,7 @@
 				C6F6E3392B3AF0110083DA4A /* HikeAppApp.swift in Sources */,
 				C6F6E34F2B3B1C020083DA4A /* CustomButtonView.swift in Sources */,
 				C6F6E3512B3B2B970083DA4A /* GradientButtonStyle.swift in Sources */,
+				C60220402B4433A400515C99 /* MotionAnimationView.swift in Sources */,
 				C6F6E34A2B3AF7C20083DA4A /* CustomBackgroundView.swift in Sources */,
 				C6F6E34D2B3AFA9F0083DA4A /* ColorExtension.swift in Sources */,
 			);
