@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C602203E2B4430C100515C99 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C602203D2B4430C100515C99 /* CustomCircleView.swift */; };
 		C6F6E3392B3AF0110083DA4A /* HikeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6E3382B3AF0110083DA4A /* HikeAppApp.swift */; };
 		C6F6E33B2B3AF0110083DA4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6E33A2B3AF0110083DA4A /* ContentView.swift */; };
 		C6F6E33D2B3AF0140083DA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F6E33C2B3AF0140083DA4A /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C602203D2B4430C100515C99 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		C6F6E3352B3AF0110083DA4A /* HikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F6E3382B3AF0110083DA4A /* HikeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeAppApp.swift; sourceTree = "<group>"; };
 		C6F6E33A2B3AF0110083DA4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				C6F6E3462B3AF5C30083DA4A /* CardView.swift */,
 				C6F6E3492B3AF7C20083DA4A /* CustomBackgroundView.swift */,
 				C6F6E34E2B3B1C020083DA4A /* CustomButtonView.swift */,
+				C602203D2B4430C100515C99 /* CustomCircleView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6F6E33B2B3AF0110083DA4A /* ContentView.swift in Sources */,
+				C602203E2B4430C100515C99 /* CustomCircleView.swift in Sources */,
 				C6F6E3472B3AF5C30083DA4A /* CardView.swift in Sources */,
 				C6F6E3392B3AF0110083DA4A /* HikeAppApp.swift in Sources */,
 				C6F6E34F2B3B1C020083DA4A /* CustomButtonView.swift in Sources */,
