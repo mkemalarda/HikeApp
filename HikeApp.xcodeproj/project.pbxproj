@@ -9,8 +9,9 @@
 /* Begin PBXBuildFile section */
 		C602203E2B4430C100515C99 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C602203D2B4430C100515C99 /* CustomCircleView.swift */; };
 		C60220402B4433A400515C99 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C602203F2B4433A400515C99 /* MotionAnimationView.swift */; };
+		C60220472B44479500515C99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60220462B44479500515C99 /* ContentView.swift */; };
+		C60220492B4447B200515C99 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60220482B4447B200515C99 /* SettingsView.swift */; };
 		C6F6E3392B3AF0110083DA4A /* HikeAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6E3382B3AF0110083DA4A /* HikeAppApp.swift */; };
-		C6F6E33B2B3AF0110083DA4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6E33A2B3AF0110083DA4A /* ContentView.swift */; };
 		C6F6E33D2B3AF0140083DA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F6E33C2B3AF0140083DA4A /* Assets.xcassets */; };
 		C6F6E3402B3AF0140083DA4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6F6E33F2B3AF0140083DA4A /* Preview Assets.xcassets */; };
 		C6F6E3472B3AF5C30083DA4A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F6E3462B3AF5C30083DA4A /* CardView.swift */; };
@@ -23,9 +24,10 @@
 /* Begin PBXFileReference section */
 		C602203D2B4430C100515C99 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		C602203F2B4433A400515C99 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		C60220462B44479500515C99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C60220482B4447B200515C99 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		C6F6E3352B3AF0110083DA4A /* HikeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HikeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F6E3382B3AF0110083DA4A /* HikeAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeAppApp.swift; sourceTree = "<group>"; };
-		C6F6E33A2B3AF0110083DA4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6F6E33C2B3AF0140083DA4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6F6E33F2B3AF0140083DA4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6F6E3462B3AF5C30083DA4A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -46,6 +48,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C60220452B44478700515C99 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C60220462B44479500515C99 /* ContentView.swift */,
+				C60220482B4447B200515C99 /* SettingsView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		C6F6E32C2B3AF0110083DA4A = {
 			isa = PBXGroup;
 			children = (
@@ -65,12 +76,12 @@
 		C6F6E3372B3AF0110083DA4A /* HikeApp */ = {
 			isa = PBXGroup;
 			children = (
+				C60220452B44478700515C99 /* Screens */,
 				C6F6E34B2B3AFA860083DA4A /* Utility */,
 				C6F6E3482B3AF7A80083DA4A /* Component */,
 				C6F6E33C2B3AF0140083DA4A /* Assets.xcassets */,
 				C6F6E33E2B3AF0140083DA4A /* Preview Content */,
 				C6F6E3382B3AF0110083DA4A /* HikeAppApp.swift */,
-				C6F6E33A2B3AF0110083DA4A /* ContentView.swift */,
 			);
 			path = HikeApp;
 			sourceTree = "<group>";
@@ -174,12 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6F6E33B2B3AF0110083DA4A /* ContentView.swift in Sources */,
 				C602203E2B4430C100515C99 /* CustomCircleView.swift in Sources */,
 				C6F6E3472B3AF5C30083DA4A /* CardView.swift in Sources */,
 				C6F6E3392B3AF0110083DA4A /* HikeAppApp.swift in Sources */,
 				C6F6E34F2B3B1C020083DA4A /* CustomButtonView.swift in Sources */,
 				C6F6E3512B3B2B970083DA4A /* GradientButtonStyle.swift in Sources */,
+				C60220492B4447B200515C99 /* SettingsView.swift in Sources */,
+				C60220472B44479500515C99 /* ContentView.swift in Sources */,
 				C60220402B4433A400515C99 /* MotionAnimationView.swift in Sources */,
 				C6F6E34A2B3AF7C20083DA4A /* CustomBackgroundView.swift in Sources */,
 				C6F6E34D2B3AFA9F0083DA4A /* ColorExtension.swift in Sources */,
